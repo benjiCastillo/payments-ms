@@ -5,5 +5,5 @@ stripe listen --forward-to localhost:3000/payments/webhook
 
 # Hookdeck
 ```bash
-hookdeck listen 3000 stripe-nestjs
+hookdeck listen 3003 stripe-to-localhost
 ```
